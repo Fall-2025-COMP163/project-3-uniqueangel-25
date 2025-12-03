@@ -4,7 +4,7 @@ Character Manager Module - Starter Code
 
 Name: Angel Drake
 
-AI Usage: [Document any AI assistance used]
+AI Usage: Used for Implementing code
 
 This module handles character creation, loading, and saving.
 """
@@ -440,6 +440,10 @@ def validate_character_data(character):
             raise InvalidSaveDataError(f"Field '{field}' must be a list, got {type(character[field]).__name__}.")
 
     return True
+    # TODO: Implement validation
+    # Check all required keys exist
+    # Check that numeric values are numbers
+    # Check that lists are actually lists
     # TODO: Implement validation
     # Check all required keys exist
     # Check that numeric values are numbers
